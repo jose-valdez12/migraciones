@@ -30,6 +30,6 @@ class Tranporte extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists("transportes");
     }
 }
